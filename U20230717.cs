@@ -13,7 +13,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
             string? ciudad;
 
             //Declaración de variable de texto desde codigo
-            string?  recidencia_donde_vive = " Barrio de Arriba ";
+            string?  residencia_donde_vive = " Barrio de Arriba ";
             string? color_vivienda = " Azul";
 
             //Declaración de variable entera desde consola
@@ -38,7 +38,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
             ciudad= Convert.ToString(Console.ReadLine());
             Console.WriteLine();
 
-            Console.WriteLine("Ingrese cuantos años tiene  de vivir en su residencia actual: ");
+            Console.WriteLine("Ingrese cuantos años tiene de vivir en su residencia actual: ");
             tiem_vivir= Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
 
@@ -51,16 +51,16 @@ namespace MyApp// Note: actual namespace depends on the project name.
             bool cadena_Comparativa = departamento == municipio;
 
             //Función de concatenar texto
-            string? cadena_Concatenada = departamento + "," + municipio + "," + recidencia_donde_vive;
+            string? cadena_Concatenada = departamento + "," + municipio + "," + residencia_donde_vive;
 
             //Función Mayuscula
             string? Función_Mayuscula = ciudad.ToUpper();
             
             //Función de limpiado de cadena
-            string? Función_Limpiado = recidencia_donde_vive.Trim();
+            string? Función_Limpiado = residencia_donde_vive.Trim();
 
             //Función de longitud de cadena
-            int longitudCadena1 = recidencia_donde_vive.Length;
+            int longitudCadena1 = residencia_donde_vive.Length;
             int longitudCadena2 = color_vivienda.Length;
 
             //Función de fecha formateada
@@ -85,7 +85,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
             Console.WriteLine("Edad actual: " + edad_actual);
             Console.WriteLine("");
             Console.WriteLine("------Asignada------");
-            Console.WriteLine("Lugar donde vive: " + recidencia_donde_vive);
+            Console.WriteLine("Lugar donde vive: " + residencia_donde_vive);
             Console.WriteLine("Color de casa: " + color_vivienda);
             Console.WriteLine("Fecha de nacimiento: " + fecha_nacimiento);
             Console.WriteLine("Fecha actual: " + fecha_Actual);
@@ -97,7 +97,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
             Console.WriteLine("Departamento: " + departamento);
             Console.WriteLine("Municipio: " + municipio);
             Console.WriteLine("Ciudad: " + ciudad);
-            Console.WriteLine("Colonia: " + recidencia_donde_vive);
+            Console.WriteLine("Colonia: " + residencia_donde_vive);
             Console.WriteLine("Color de casa: " + color_vivienda);
             Console.WriteLine("");
 
@@ -118,7 +118,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
             Console.WriteLine("------Funciones------");
             Console.WriteLine("Función Mayúscula: " + Función_Mayuscula);
             Console.WriteLine("Concatenar Cadena : "+ cadena_Concatenada);
-            Console.WriteLine("Longitud de cadena: " +" (" + recidencia_donde_vive + ") "+ longitudCadena1);
+            Console.WriteLine("Longitud de cadena: " +" (" + residencia_donde_vive + ") "+ longitudCadena1);
             Console.WriteLine("Longitud de cadena: " + "("+ color_vivienda+ ")" + longitudCadena2);
 
 
