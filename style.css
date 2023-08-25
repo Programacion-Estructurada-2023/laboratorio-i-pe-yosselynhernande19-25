@@ -1,0 +1,98 @@
+.contenedor-reticula {
+    /*Mostrar un diseño en réticula, nesesario para que todo funcione con grid*/
+    display: grid;
+    /*Define el ancho proporcional de las columnas*/
+    grid-template-columns: repeat(3, 1fr);
+    /*Define el tamaño de las filas*/
+    grid-template-rows: auto auto;
+    /*Espacio entre las celdas*/
+    grid-gap: 20px;
+     /*Definir las areas de la reticula header ocupara dos espacios de las tres columnas tanto en 
+     la fila 1 como en la fila 2 y slidebar */
+    grid-template-areas:
+      "encabezado encabezado encabezado"
+      "contenido barra-lateral barra-lateral";
+  }
+
+
+  .producto{
+    /*Aplica una fuente al texto*/
+    font-family: Arial;
+    /*Espacio de borde drentro del elemeto*/
+    padding: 20px;
+    /*Define el borde del elemento*/
+    border: 1px solid  blue;
+    /*Define color del elemento*/
+    background-color: lightblue;
+    /*Alinea el texto al centro*/
+    text-align: center;
+  }
+
+  .encabezado {
+    /*Asigna el elemento en el encabezado*/
+    grid-area: encabezado;
+  }
+
+  .contenido {
+    /*Asigna el elemento en el contenido*/
+    grid-area: contenido;
+  }
+
+  .barra-lateral {
+    /*Asigna el elemento en la barra lateral*/
+    grid-area: barra-lateral;
+  }
+
+
+
+  .contenedor2-reticula{
+    /*Mostrar un diseño en réticula, nesesario para que todo funcione con grid*/
+    display: grid;
+    /*Define el ancho proporcional de las colomnas*/
+    grid-template-columns: repeat(4, 1fr);
+    /*Define el tamaño de las filas*/
+    grid-template-rows: auto;
+    /*Espacio entre las celdas*/
+    grid-gap: 10px;
+     
+  }
+
+  .elementos {
+    background-color: greenyellow;
+    /*Espacio de borde drentro del elemeto*/
+    padding: 20px;
+    /*Define el borde del elemento*/
+    border: 1px solid purple;
+    /*Alinea el texto al centro*/
+    text-align: center;
+  }
+
+
+  img{
+    /*Ancho de la imagen*/
+    width:200px;
+    /*Alto de la imagen*/
+    height:200px;
+  }
+
+  h2{
+    /*Alinea el texto a la derecha*/
+    text-align: right;
+  }
+
+  h1{
+    /*Alinea el texto a la izquierda*/
+    text-align: left;
+  }
+
+  .item{
+    /*Mostrar un diseño en réticula, nesesario para que todo funcione con grid*/
+    display: grid;
+    /*Define el ancho proporcional de las colomnas*/
+    grid-template-columns: repeat(2, 1fr);
+    /*Esácio entre las celdas*/
+    grid-gap: 20px;
+    /*Define el tamaño de las filas*/
+    grid-template-rows: auto;
+    
+  }
